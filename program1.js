@@ -4,7 +4,7 @@
  */
 var isValid = function(s) {
     const stack = [];
-    const brackets = {'(':'),'[':'],'{':'}'};
+    const brackets = {'(':')','[':']','{':'}'};
 
     for(let char of s){
         if(brackets[char]){
